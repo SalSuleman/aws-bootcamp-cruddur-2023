@@ -26,6 +26,7 @@ Problem Areas:
 
 Solutions:
 - standard troubleshooting for the gitpod error
+  - update: wokrking, created new keys, deleted all workspaces in gitpod and replaced env vars with new keys, keys work now but "aws sts get-caller-identity" returns id of old keys, checking IAM on aws management console confims new keys are being used and old keys are deactivated.
 - research each component in diagram
 
 This weeks takeaways:
