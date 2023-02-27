@@ -24,5 +24,3 @@ EXPOSE ${PORT}
 # command to run flask on port 4567
 ## CMD runs a command inside the container when it starts up
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
-
-docker run --rm -e FRONTEND_URL='*' -e BACKEND_URL='*' -p 4567:4567 -it backend-flask
